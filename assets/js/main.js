@@ -2,7 +2,7 @@
 var loader = '<div style="" id="ctn-preloader" class="ctn-preloader"> <div class="loading loading07"><span data-text="M">M</span><span data-text="U">U</span><span data-text="L">L</span><span data-text="A">A</span><span data-text="S">S</span><span data-text="I">I</span></div></div>'
 $('body').append(loader);
 $(window).on('load', function () {
-    setTimeout(removeLoader, 2400); //wait for page load PLUS two seconds.
+    setTimeout(removeLoader, 1600); //wait for page load PLUS two seconds.
 
     AOS.refresh();
 });
